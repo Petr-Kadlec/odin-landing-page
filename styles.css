@@ -1,0 +1,177 @@
+html{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+ul{list-style: none}
+nav ul{
+    display: flex;
+    margin-left:250px;
+   margin-top:0;
+   margin-right: 325px;
+    
+}
+.header{ 
+   padding-bottom:5%;
+background-color: #1F2937;
+}
+
+nav li {
+    color:white;
+    margin: 0 10px;
+  }
+  .push-left{
+    font-size:32px;
+    margin-right: auto;
+    
+  }
+.right,.secondarytext{
+  
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.cards{
+    flex:1;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap:50px;
+    
+
+}
+.quoteText{
+    padding-left:500px;
+    padding-right:500px;
+}
+.cardheader{
+    border-color:#3882F6;
+    border-radius: 10px;
+    border-style: solid;
+    height: 150px;
+    
+}
+.card{
+ 
+    width: 150px;
+    height: 100px;
+    justify-self: center;
+}
+.right{
+    margin-left: auto;
+}
+.left{
+
+
+    font-size:24px;
+    color:#F9FAF8;
+
+}
+.headercontent{
+    display:flex;
+}
+button{
+    background-color: #3882F6;
+    color:white;
+    
+    padding:15px;
+    border-radius: 10px;
+    width: 120px;
+}
+.info{
+  
+    text-align: center;
+}
+.S{
+
+  
+    
+    border-color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.UP{
+   margin-left:300px
+}
+.Left{
+    margin-top:2%;
+    margin-left:4%;
+  
+    width:650px;
+    height: 150px;
+    padding-top:100px;
+    margin-bottom:15px;
+    text-align: center;
+    color:white;
+    background-color: grey;
+}
+.Information{
+
+  
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+}
+.secondarytext{
+    padding-left:300px;
+    max-width: 500px;
+}
+.MainText{
+    padding-left:300px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+.quote{
+    padding: 50px;;
+    text-align: center;
+    padding:5%;
+    margin-top:10%;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937;
+
+
+}
+.autor{
+    font-style:bold;
+    padding-right:500px;
+     color:black;
+    text-align: right;
+}
+.Copyrights {
+    background-color: #1F2937;
+    padding: 30px;
+    text-align: center;
+    color:white;
+}
+.Footer{
+   
+    display:flex;
+
+    background-color: #3882F6;
+    margin-left: 500px;
+    margin-right: 500px;
+   
+    padding:3%;
+    margin-top:15%;
+    margin-bottom:3%;
+}
+
+.FCright{
+   display:flex;
+   align-items: center;
+   
+}
+.FCleft{
+    align-items: center;
+  flex-basis: 1000px;
+
+    color:white;
+    
+}
