@@ -1,0 +1,1 @@
+this is the second large project from odin which should represent how i can use basic html and csss to make a landing page.
